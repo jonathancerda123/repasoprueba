@@ -20,4 +20,5 @@ from django.urls import include, path
 urlpatterns = [
     path('roman/', include('roman.urls')),
     path('admin/', admin.site.urls),
+    path('cerda/', include('cerda.urls')),
 ]
